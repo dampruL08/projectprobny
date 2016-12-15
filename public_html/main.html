@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coś tam</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='CSS/style.css' rel='stylesheet' type='text/css'> 
+        <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body id="myPage">  
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button><a class="navbar-brand" href="#myPage">Home</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class=""><a href="#about">GALERY</a></li>
+                            <li><a href="#services">ABOUT</a></li>
+                            <li><a href="#portfolio">COMMENT</a></li>
+                            <li><a href="#pricing">LOGIN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="jumbotron text-center">
+                <h1>Blog</h1>
+                <p>Gallery blog</p>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="content-header">
+                        <input type="file" id="files" name="files[]" multiple />
+                        <div class="button-group">
+                            <button id ="resizeBlocks" type="button" class="btn unclicked">Włącz zmianę rozmiaru</button>
+                            <button id ="removeBlocks" type="button" class="btn unclicked">Włącz usuwanie</button>
+                            <button id ="dragBlocks" type="button" class="btn unclicked">Włącz przenoszenie</button>
+                        </div>
+                    </div>
+                    <div class="content-main">
+                        <div class="grid" id="gridId"></div>
+                    </div>
+
+
+                </div>
+            </div>
+            <footer></footer>
+        <script type="text/javascript" src="JavaScript/packery.pkgd.min.js"></script>
+        <script type="text/javascript" src="masonry.pkgd.js"></script>
+        <script type="text/javascript" src="JavaScript/buttonsListener.js"></script>
+        <script type="text/javascript" src="JavaScript/functions.js"></script>
+        <script type="text/javascript" src="JavaScript/fileloader.js"></script>
+        <script type="text/javascript" src="JavaScript/jquery.min.js"></script>
+        <script type="text/javascript" src="JavaScript/imagesloaded.pkgd.js"></script>
+        <script type="text/javascript" src="JavaScript/js.js"></script>
+
+
+
+    </body>
+</html>
